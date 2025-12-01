@@ -3,22 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Benoit - Your Friendly And Smart AI Companion</title>
+    <title>ShachiRent - Your Friendly And Smart Rental Companion</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
+    <header class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <a href="index.html">Benoit</a>
+                <div class="nav-logo-mark">
+                    <img src="public/logosolidcolour.png" alt="ShachiRent logo">
+                </div>
+                <a href="#home" class="nav-logo-text">ShachiRent</a>
             </div>
             <ul class="nav-menu">
-                <li><a href="#home" class="nav-link">Home</a></li>
-                <li><a href="#features" class="nav-link">Features</a></li>
-                <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
-                <li><a href="#walkthrough" class="nav-link">Walkthrough</a></li>
-                <li><a href="#team" class="nav-link">Team</a></li>
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#walkthrough" class="nav-link">Prototype</a></li>
                 <li><a href="process.html" class="nav-link">Process</a></li>
             </ul>
             <div class="hamburger" id="hamburger">
@@ -27,18 +26,22 @@
                 <span></span>
             </div>
         </div>
-
-        <div> </div>
-    </nav>
+    </header>
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Your Friendly And Smart<br><span class="highlight">Benoit Companion</span></h1>
-                <p>The smarter platform built for everyone's first chat experience.</p>
-                <p class="hero-description">Benoit helps you discover, analyze, and track everything. Our intelligent assistant learns your preferences and adapts to your needs, making every interaction seamless and intuitive.</p>
-                <a href="#walkthrough" class="cta-button">Get Started</a>
+        <div class="hero-wrapper">
+            <div class="hero-copy">
+                <h1>Shachi - Your Friendly And Smart Rental Companion</h1>
+                <p class="hero-subtitle">A rental platform built for<br>renters in Lower Mainland Vancouver</p>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-floating hero-icon house"></div>xs
+                <div class="hero-floating hero-icon chat"></div>
+                <div class="hero-floating hero-icon checklist"></div>
+                <div class="hero-floating hero-icon idcard"></div>
+                <div class="hero-floating hero-icon heart"></div>
+                <img src="public/hero-whale.png" alt="Friendly whale mascot holding a key" class="hero-illustration">
             </div>
         </div>
     </section>

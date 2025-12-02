@@ -764,10 +764,6 @@ body {
   background-color: var(--light);
 }
 
-.process-section.soft-bg {
-  background-color: #f0f4ff;
-}
-
 .timeline {
   position: relative;
   padding: 20px 0;
@@ -1330,8 +1326,9 @@ body {
   font-size: 15px;
   line-height: 1.6;
 }
-/* Key Findings Section */
 
+
+/* Key Findings Section */
 .insights-section {
   background: #f7faff;
 }

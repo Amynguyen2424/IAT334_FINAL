@@ -11,14 +11,14 @@
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <a href="index.html">Benoit</a>
+                <div class="nav-logo-mark">
+                    <img src="public/logosolidcolour.png" alt="ShachiRent logo">
+                </div>
+                <a href="#home" class="nav-logo-text">ShachiRent</a>
             </div>
             <ul class="nav-menu">
-                <li><a href="index.html#home" class="nav-link">Home</a></li>
-                <li><a href="index.html#features" class="nav-link">Features</a></li>
-                <li><a href="index.html#how-it-works" class="nav-link">How It Works</a></li>
-                <li><a href="index.html#walkthrough" class="nav-link">Walkthrough</a></li>
-                <li><a href="index.html#team" class="nav-link">Team</a></li>
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="index.html" class="nav-link">Prototype</a></li>
                 <li><a href="process.html" class="nav-link active">Process</a></li>
             </ul>
             <div class="hamburger" id="hamburger">
@@ -33,41 +33,91 @@
     <section class="page-header">
         <div class="container">
             <h1>Unlock How We've Designed</h1>
-            <p>Discover our comprehensive design and development process for creating Benoit</p>
+            <p>Discover our comprehensive design and development process for creating ShachiRent</p>
+        </div>
+    </section>
+
+    <!-- Project Brief -->
+    <section class="project-brief-section">
+        <div class="container">
+            <div class="project-brief-grid">
+                <div class="project-brief-card">
+                    <span class="brief-label">Year</span>
+                    <span class="brief-value">2025</span>
+                </div>
+                <div class="project-brief-card">
+                    <span class="brief-label">Domain</span>
+                    <span class="brief-value">Rental & Housing</span>
+                </div>
+                <div class="project-brief-card">
+                    <span class="brief-label">Project Type</span>
+                    <span class="brief-value">Mobile App</span>
+                </div>
+                <div class="project-brief-card">
+                    <span class="brief-label">Location</span>
+                    <span class="brief-value">Vancouver, British Columbia</span>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Product Brief -->
-    <section class="process-section">
+    <section class="process-section soft-bg">
         <div class="container">
             <div class="section-content">
-                <h2>Product Brief</h2>
-                <p class="section-subtitle">Understanding the Foundation</p>
+                <div class="section-heading">
+                    <span class="section-number">1.</span>
+                    <h2 class="section-title">Understand The Problem</h2>
+                </div>
+                <p class="section-subtitle">Metro Vancouver's rental market presents significant challenges that heavily impact newcomers and international students:</p>
                 <div class="product-brief-grid">
                     <div class="brief-card">
-                        <h4>Problem Statement</h4>
-                        <p>Users struggle with managing complex information and making informed decisions across multiple touchpoints and platforms.</p>
+                        <p>Less than 1% vacancy rate in Metro Vancouver</p>
                     </div>
                     <div class="brief-card">
+                        <p>Duplicate listings across multiple platforms</p>
+                    </div>
+                    <div class="brief-card">
+                        <p>Increasing rental scams targeting newcomers</p>
+                    </div>
+                    <div class="brief-card">
+                        <p>Limited trust mechanisms between parties</hp>
+                    </div>
+                    <!-- <div class="brief-card">
                         <h4>Our Solution</h4>
                         <p>Benoit provides an intelligent, conversational AI companion that learns user preferences and delivers personalized insights in real-time.</p>
                     </div>
                     <div class="brief-card">
                         <h4>Target Audience</h4>
                         <p>Professional users, students, and businesses seeking an intuitive tool for information discovery and decision support.</p>
-                    </div>
+                    </div> -->
+                </div>
+
+                <div class="brief-card">
+                    <h4>Problem statement</h4>
+                    <p>How might we redesign the rental search process to prevent scams and optimize efficiency between verified landlord and renter matching?</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Project Goal -->
-    <section class="process-section" style="background-color: #f0f4ff;">
+    <section class="process-section">
         <div class="container">
             <div class="section-content">
-                <h2>Project Goal</h2>
+                <div class="section-heading">
+                    <span class="section-number">2.</span>
+                    <h2 class="section-title">Project Goal</h2>
+                </div>
                 <p class="section-subtitle">Vision & Objectives</p>
-                <div class="goal-content">
+                <div class="brief-card">
+                    <h4>Primary Goal</h4>
+                    <p>Create a mobile app that helps renters find verified listings, 
+                        connect with legitimate landlords, manage applications efficiently,
+                        and understand their tenant rights, transforming an overwhelming process into a supportive,
+                        approachable experience.</p>
+                </div>
+                <!-- <div class="goal-content">
                     <div class="goal-box">
                         <h4>Primary Goal</h4>
                         <p>Create an intuitive, AI-powered platform that becomes users' trusted companion for daily decision-making and information discovery.</p>
@@ -86,92 +136,112 @@
                             <span class="metric-label">Avg Response Time</span>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
 
     <!-- User Research -->
-    <section class="process-section">
+    <section class="process-section soft-bg">
         <div class="container">
-            <h2>User Research</h2>
-            <p class="section-subtitle">Methodologies & Findings</p>
-            <div class="research-grid">
-                <div class="research-card">
-                    <div class="research-icon">📋</div>
-                    <h3>Interviews</h3>
-                    <p>Conducted 100+ in-depth interviews with target users to understand their pain points, workflows, and needs.</p>
+            <div class="section-heading">
+                <span class="section-number">3.</span>
+                <h2 class="section-title">Our Solution</h2>
+            </div>
+            <div class="solution-grid">
+                <div class="solution-card">
+                    <h3>Unified Search Flow</h3>
+                    <p>Aggregate listings from multiple platforms and eliminate duplicates automatically, saving renters hours of browsing time.</p>
                 </div>
-                <div class="research-card">
-                    <div class="research-icon">📊</div>
-                    <h3>Surveys</h3>
-                    <p>Collected quantitative data from 500+ users to validate hypotheses and prioritize features.</p>
+                <div class="solution-card">
+                    <h3>Verification System</h3>
+                    <p>Trust scores and verification data help confirm legitimate landlords before applying, reducing the risk of scams.</p>
                 </div>
-                <div class="research-card">
-                    <div class="research-icon">🧪</div>
-                    <h3>User Testing</h3>
-                    <p>Conducted usability testing sessions to identify friction points and validate design decisions.</p>
+                <div class="solution-card">
+                    <h3>One-Time Upload</h3>
+                    <p>Build your renter profile once with secure document storage and apply to multiple properties instantly.</p>
                 </div>
-                <div class="research-card">
-                    <div class="research-icon">📈</div>
-                    <h3>Analytics</h3>
-                    <p>Analyzed competitor platforms and existing solutions to identify market gaps and opportunities.</p>
+                <div class="solution-card">
+                    <h3>Direct Communication</h3>
+                    <p>Chat with landlords, schedule viewings, and manage maintenance requests all in the app.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Insights -->
+    <section class="process-section insights-section">
+        <div class="container">
+            <div class="section-heading">
+                <span class="section-number">4.</span>
+                <h2 class="section-title">Key Insights Gathered From Interviews</h2>
+            </div>
+            <div class="insights-grid">
+                <div class="insight-card">
+                    <div class="insight-number">1.</div>
+                    <h3>Repetitive Documentation Wastes Time</h3>
+                    <p>Renters repeatedly upload the same documents across platforms. A centralized, reusable renter profile saves time and reduces frustration during applications.</p>
+                </div>
+                <div class="insight-card">
+                    <div class="insight-number">2.</div>
+                    <h3>Verification Must Be Front and Center</h3>
+                    <p>International students lack local knowledge to spot scams. Badges, reviews, and trust scores need to be prominent on listings, not hidden.</p>
+                </div>
+                <div class="insight-card">
+                    <div class="insight-number">3.</div>
+                    <h3>Keep the Supportive Tone Consistent</h3>
+                    <p>Our Shachi guide’s warm tone resonated during onboarding but faded later. It should stay present throughout flows to keep the supportive feel.</p>
+                </div>
+                <div class="insight-card">
+                    <div class="insight-number">4.</div>
+                    <h3>Duplicate Listings Overwhelm Users</h3>
+                    <p>Multiple platforms show duplicates and outdated posts. Aggregating, deduplicating, and verifying listings builds confidence and saves time.</p>
+                </div>
+                <div class="insight-card">
+                    <div class="insight-number">5.</div>
+                    <h3>Users Need Visual Match Indicators</h3>
+                    <p>Preference matches as text were confusing. Clear color-coded indicators and visuals make it obvious which properties fit.</p>
+                </div>
+                <div class="insight-card">
+                    <div class="insight-number">6.</div>
+                    <h3>Application Progress Lacks Clarity</h3>
+                    <p>Applicants struggled to see status and next steps. Clear tracking and confirmations reduce stress throughout the process.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- User Personas -->
-    <section class="process-section" style="background-color: #f0f4ff;">
+    <section class="process-section soft-bg">
         <div class="container">
-            <h2>User Personas</h2>
+            <div class="section-heading">
+                <span class="section-number">5.</span>
+                <h2 class="section-title">User Personas</h2>
+            </div>
             <p class="section-subtitle">Key Target Segments</p>
-            <div class="personas-grid">
-                <div class="persona-card">
-                    <div class="persona-header">
-                        <h3>Professional Sarah</h3>
-                        <p class="persona-role">Corporate Executive</p>
-                    </div>
-                    <div class="persona-details">
-                        <p><strong>Age:</strong> 35 | <strong>Industry:</strong> Finance</p>
-                        <p><strong>Goals:</strong> Quick decision making, market insights</p>
-                        <p><strong>Pain Points:</strong> Information overload, limited time</p>
-                    </div>
-                </div>
-                <div class="persona-card">
-                    <div class="persona-header">
-                        <h3>Student Alex</h3>
-                        <p class="persona-role">University Student</p>
-                    </div>
-                    <div class="persona-details">
-                        <p><strong>Age:</strong> 22 | <strong>Field:</strong> Engineering</p>
-                        <p><strong>Goals:</strong> Learn efficiently, research support</p>
-                        <p><strong>Pain Points:</strong> Finding credible sources, time management</p>
-                    </div>
-                </div>
-                <div class="persona-card">
-                    <div class="persona-header">
-                        <h3>Entrepreneur James</h3>
-                        <p class="persona-role">Business Owner</p>
-                    </div>
-                    <div class="persona-details">
-                        <p><strong>Age:</strong> 42 | <strong>Sector:</strong> Tech Startup</p>
-                        <p><strong>Goals:</strong> Growth strategies, competitive analysis</p>
-                        <p><strong>Pain Points:</strong> Information fragmentation, resource constraints</p>
-                    </div>
-                </div>
+
+            <div class="persona-portrait">
+                <img src="public/persona1.png" alt="Persona portrait placeholder">
+            </div>
+            <div class="persona-portrait">
+                <img src="public/persona2.png" alt="Persona portrait placeholder">
             </div>
         </div>
+
+        
     </section>
 
     <!-- Wireframes & Features -->
     <section class="process-section">
         <div class="container">
-            <h2>App Features & Wireframes</h2>
+            <div class="section-heading">
+                <span class="section-number">5.</span>
+                <h2 class="section-title">App Features & Wireframes</h2>
+            </div>
             <p class="section-subtitle">Key Interface Designs</p>
             <div class="wireframes-grid">
                 <div class="wireframe-item">
-                    <img src="/placeholder.svg?height=400&width=250" alt="Homepage Wireframe">
+                    <img src="public/onboard1.png" alt="Homepage Wireframe">
                     <h4>Homepage</h4>
                     <p>Clean dashboard with quick access to conversations and recommendations</p>
                 </div>
@@ -195,15 +265,18 @@
     </section>
 
     <!-- Prototyping -->
-    <section class="process-section" style="background-color: #f0f4ff;">
+    <section class="process-section soft-bg">
         <div class="container">
-            <h2>Prototyping</h2>
+            <div class="section-heading">
+                <span class="section-number">6.</span>
+                <h2 class="section-title">Prototyping</h2>
+            </div>
             <p class="section-subtitle">Device Mockups & Interactions</p>
             <div class="prototypes-showcase">
                 <div class="prototype-row">
                     <div class="prototype-device">
                         <div class="device-frame iphone">
-                            <img src="/placeholder.svg?height=600&width=300" alt="iPhone Prototype">
+                            <img src="public/onboard1.png" alt="iPhone Prototype">
                         </div>
                     </div>
                     <div class="prototype-device">
@@ -236,7 +309,10 @@
     <!-- Design Specifications -->
     <section class="process-section">
         <div class="container">
-            <h2>Design Specifications</h2>
+            <div class="section-heading">
+                <span class="section-number">7.</span>
+                <h2 class="section-title">Design Specifications</h2>
+            </div>
             <p class="section-subtitle">Colors, Typography & Components</p>
             <div class="specs-grid">
                 <div class="spec-card">
@@ -268,9 +344,12 @@
     </section>
 
     <!-- UI Components -->
-    <section class="process-section" style="background-color: #f0f4ff;">
+    <section class="process-section soft-bg">
         <div class="container">
-            <h2>UI Components</h2>
+            <div class="section-heading">
+                <span class="section-number">8.</span>
+                <h2 class="section-title">UI Components</h2>
+            </div>
             <p class="section-subtitle">Design System Elements</p>
             <div class="components-showcase">
                 <div class="component">
@@ -309,7 +388,10 @@
     <!-- Icons & Illustrations -->
     <section class="process-section">
         <div class="container">
-            <h2>Icons & Illustrations</h2>
+            <div class="section-heading">
+                <span class="section-number">9.</span>
+                <h2 class="section-title">Icons & Illustrations</h2>
+            </div>
             <p class="section-subtitle">Visual Assets</p>
             <div class="icons-grid">
                 <div class="icon-item">
@@ -341,9 +423,12 @@
     </section>
 
     <!-- Branding -->
-    <section class="process-section" style="background-color: #f0f4ff;">
+    <section class="process-section soft-bg">
         <div class="container">
-            <h2>Branding</h2>
+            <div class="section-heading">
+                <span class="section-number">10.</span>
+                <h2 class="section-title">Branding</h2>
+            </div>
             <p class="section-subtitle">Logo & Visual Identity</p>
             <div class="branding-showcase">
                 <div class="logo-section">
@@ -367,7 +452,10 @@
     <!-- User Testing Results -->
     <section class="process-section">
         <div class="container">
-            <h2>User Testing Results</h2>
+            <div class="section-heading">
+                <span class="section-number">11.</span>
+                <h2 class="section-title">User Testing Results</h2>
+            </div>
             <p class="section-subtitle">Key Metrics & Insights</p>
             <div class="testing-results">
                 <div class="result-card">
@@ -402,33 +490,6 @@
         </div>
     </section>
 
-    <!-- Design Handoff -->
-    <section class="process-section" style="background-color: #f0f4ff;">
-        <div class="container">
-            <h2>Design Handoff</h2>
-            <p class="section-subtitle">Development Specifications</p>
-            <div class="handoff-content">
-                <div class="handoff-box">
-                    <h4>Documentation</h4>
-                    <ul class="handoff-list">
-                        <li>✓ Complete design files in Figma</li>
-                        <li>✓ Component library with variants</li>
-                        <li>✓ Interaction specifications</li>
-                        <li>✓ Animation guidelines</li>
-                    </ul>
-                </div>
-                <div class="handoff-box">
-                    <h4>Developer Resources</h4>
-                    <ul class="handoff-list">
-                        <li>✓ CSS variables & design tokens</li>
-                        <li>✓ Responsive breakpoints</li>
-                        <li>✓ Accessibility checklist</li>
-                        <li>✓ Performance benchmarks</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- CTA Section -->
     <section class="process-cta">
